@@ -1,0 +1,75 @@
+*{
+    padding: 0px;
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+
+body{
+    
+    background-color: rgb(129, 196, 129);
+    text-align: center;
+}
+
+main{
+    background-color: white;
+    margin: auto;
+    text-align: justify;
+    max-width: 840px;
+}
+
+@font-face {
+    font-family:fonte;
+    src: url('./fontes/idroid.otf') format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+h3, h2{
+    font-family: 'fonte';
+    color: rgb(4, 71, 4);
+    
+}
+
+.conteudo{
+    padding: 5px 20px;
+}
+
+ul{
+    list-style: none;
+    color: black;
+    font-weight: bolder;
+    padding-right: 140px;
+    display: inline-block;
+}
+
+h4{
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    padding: 15px;
+    background-color: rgb(19, 131, 19);
+}
+
+div > p{
+    padding: 15px;
+}
+
+.extra{
+    margin: 30px;
+    border-radius: 15px;
+    background-color: rgba(137, 212, 137, 0.596);
+}
+
+.video{
+    text-align: center;
+    border:20px solid rgb(2, 53, 2);
+    background-color: rgb(2, 54, 2);
+}
+
+footer{
+    padding: 20px;
+    color: white;
+    background-color:rgb(2, 54, 2) ;
+}
