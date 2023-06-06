@@ -21,7 +21,7 @@ body{
 header{
     box-shadow: 3px 3px 3px 4px rgba(0, 0, 0, 0.322);
     color: #ffffff;
-    height: 200px;
+    padding: 10px;
     background-image: linear-gradient(to top, #09360f,#0d611a,#119425);
 }
 
