@@ -6,13 +6,15 @@
 }
 
 body{
+    text-align: center;
+    background-attachment: fixed;
     background-color: rgb(100, 146, 100);
     
 }
 
 footer,
 header{
-    min-width: 430px;
+    min-width: 427px;
 }
 
 @font-face{
@@ -24,7 +26,8 @@ header{
 }
 
 header{
-    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.322);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.432);
+    margin-bottom: 1px;
     color: #ffffff;
     text-align: center;
     background-image: linear-gradient(to top, #09360f,#0d611a,#119425);
@@ -62,9 +65,9 @@ nav > a{
 }
 
 main{
+    margin-bottom:40px ;
     text-align: center;
-    min-width: 410px;
-    margin: 0px 10px 0px 10px;
+    min-width: 415px;
     background-color: white;
     max-width: 840px;
     border-radius: 0px 0px 15px 15px;
