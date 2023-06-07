@@ -1,13 +1,19 @@
 *{
-    padding: 0px;
+    padding: 0;
     margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900; 
 }
 
-body{ 
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 900;
+body{
     background-color: rgb(100, 146, 100);
     
+}
+
+footer,
+header{
+    width: 98%;
+    min-width: 540px;
 }
 
 @font-face{
@@ -21,7 +27,7 @@ body{
 header{
     box-shadow: 3px 3px 3px 4px rgba(0, 0, 0, 0.322);
     color: #ffffff;
-    padding: 10px;
+    text-align: center;
     background-image: linear-gradient(to top, #09360f,#0d611a,#119425);
 }
 
@@ -49,6 +55,7 @@ nav{
 }
 
 nav > a{
+    font-weight: 900;
     text-shadow: 6px 3px rgba(0, 0, 0, 0.39) ;
     margin: 0px 10px;
     text-decoration:none; 
@@ -56,12 +63,11 @@ nav > a{
 }
 
 main{
-    min-width: 420px;
-    text-align: center;
+    min-width: 500px;
+    margin: 0px 20px 0px 20px;
     background-color: white;
     max-width: 840px;
     border-radius: 0px 0px 15px 15px;
-    margin: 5px 20px;
     box-shadow: 4px 4px 4px 7px rgba(0, 0, 0, 0.322);
 }
 
